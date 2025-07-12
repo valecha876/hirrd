@@ -1,12 +1,31 @@
-# React + Vite
+💼 Hirred
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hirred is a modern, full-stack job board platform designed for both candidates and recruiters. Built using Tailwind CSS, Supabase, Clerk, and Shadcn UI.
+this web application allows users to post jobs, apply for jobs, and manage their career or hiring needs seamlessly.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👤 For Candidates:
+- Browse available job listings
+- Apply for jobs directly within the platform
+- View application status and history
+- Secure authentication with Clerk
 
-## Expanding the ESLint configuration
+🧑‍💼 For Recruiters:
+- Post new job openings
+- Manage and edit job listings
+- View applicant details
+- Organize and track submissions
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠 Tech Stack
+
+- Frontend: Tailwind CSS, Shadcn UI
+- Backend: Supabase
+- Authentication: Clerk
+
+🔒 Authentication
+
+User management and authentication are handled using Clerk, providing:
+- Email/password login
+- OAuth support (Google, GitHub, etc.)
+- Secure session management
