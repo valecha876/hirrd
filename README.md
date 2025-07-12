@@ -27,5 +27,5 @@ this web application allows users to post jobs, apply for jobs, and manage their
 
 User management and authentication are handled using Clerk, providing:
 - Email/password login
-- OAuth support (Google, GitHub, etc.)
+- OAuth support (Google, etc.)
 - Secure session management
